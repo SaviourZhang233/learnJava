@@ -20,4 +20,15 @@ public class Book {
         this.type = type;
         this.isBorrowed = isBorrowed;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "name='" + name + '\'' +
+                ", author='" + author + '\'' +
+                ", price=" + price +
+                ", type='" + type + '\'' +
+                ", isBorrowed=" + isBorrowed +
+                '}';
+    }
 }

@@ -10,7 +10,7 @@ abstract public class User {
     public abstract int menu();
 
     public void doOperation(int choice, BookList bookList){
-        //operations[choice - 1](bookList);
+        operations[choice - 1].work(bookList);
     }
 
     public String getName() {
