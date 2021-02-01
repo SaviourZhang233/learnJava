@@ -21,6 +21,18 @@ public class Book {
         this.isBorrowed = isBorrowed;
     }
 
+    public void setBorrowed(boolean borrowed) {
+        isBorrowed = borrowed;
+    }
+
+    public boolean getBorrowed() {
+        return isBorrowed;
+    }
+
+    public String getName() {
+        return name;
+    }
+
     @Override
     public String toString() {
         return "Book{" +
